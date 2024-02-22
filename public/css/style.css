@@ -1,0 +1,109 @@
+.boom{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    text-align: center;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.custom-btns{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.profile-update{
+    border: 1px solid black;
+    margin-top: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 560px;
+    height: 240px;
+}
+
+#wrapper {
+    display: flex;
+  }
+#img {
+    float: left;
+  }
+.dropdown {
+    right: 10px;
+  }
+
+.dropdown-menu{
+    min-width: 5rem;
+}
+
+
+
+/*  */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+body {
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.navbar-laravel {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+}
+
+.navbar-brand,
+.nav-link,
+.my-form,
+.login-form {
+    font-family: Raleway, sans-serif;
+}
+
+.my-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.reset_img{
+    background-color: var(--primary-color); /* Green */
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position:relative;
+    top: 200px;
+    right: 70px;
+  }
+
+
+
+
